@@ -1,0 +1,24 @@
+{
+  "name": "image-shrink",
+  "version": "1.0.0",
+  "description": "App to shrink images",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --exec electron ."
+  },
+  "author": "Alon Green",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.0.3",
+    "filesize": "^6.1.0",
+    "imagemin": "^7.0.1",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.0",
+    "materialize-css": "^1.0.0",
+    "slash": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
