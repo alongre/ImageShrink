@@ -10,7 +10,7 @@
   "author": "Alon Green",
   "license": "ISC",
   "dependencies": {
-    "electron": "^9.0.3",
+    "electron": "^15.5.5",
     "electron-log": "^4.2.2",
     "filesize": "^6.1.0",
     "imagemin": "^7.0.1",
